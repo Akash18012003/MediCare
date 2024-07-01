@@ -8,7 +8,7 @@ export default function MyOrder() {
 
     const fetchMyOrder = async () => {
         try {
-            const response = await fetch('https://medicareserver.vercel.app/api/myorderData', {
+            const response = await fetch('https://medicareserver-git-main-akashs-projects-c96b2f8a.vercel.app/api/myorderData', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
