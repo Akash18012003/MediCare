@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div className="carousel-item active">
               <img
-                src="https://source.unsplash.com/random/600x600/?Medicine"
+                src="https://st3.depositphotos.com/9335968/37050/i/450/depositphotos_370508154-stock-photo-packet-heroin-pills-drug-addiction.jpg"
                 className="d-block w-100"
                 style={{ filter: "brightness(30%)" }}
                 alt="..."
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/600x600/?Doctor"
+                src="https://static5.depositphotos.com/1005360/519/i/450/depositphotos_5194551-stock-photo-medical-syringe-and-pills.jpg"
                 className="d-block w-100"
                 style={{ filter: "brightness(30%)" }}
                 alt="..."
