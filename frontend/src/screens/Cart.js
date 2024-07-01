@@ -18,7 +18,7 @@ export default function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch('https://medicareserver.vercel.app/api/orderData', {
+    let response = await fetch('https://medicareserver-git-main-akashs-projects-c96b2f8a.vercel.app/api/orderData', {
      //credentials: 'include',
     //    Origin:"http://localhost:3000/login",
       method: 'POST',
