@@ -10,7 +10,7 @@ export default function Signup() {
   const handleSubmit = async (e) => {
         e.preventDefault();
         
-        const response = await fetch('https://medicareserver.vercel.app/api/creatuser', {
+        const response = await fetch('https://medicareserver-git-main-akashs-projects-c96b2f8a.vercel.app/api/creatuser', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
