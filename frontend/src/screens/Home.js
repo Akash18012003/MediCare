@@ -9,7 +9,7 @@ export default function Home() {
   const [medIteam, setmedIteam] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch('https://medicareserver.vercel.app/api/medicineData', {
+    let response = await fetch('https://medicareserver-git-main-akashs-projects-c96b2f8a.vercel.app/api/medicineData', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
