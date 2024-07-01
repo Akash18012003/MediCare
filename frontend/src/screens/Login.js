@@ -7,7 +7,7 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('https://medicareserver.vercel.app/api/loginuser', {
+    const response = await fetch('https://medicareserver-git-main-akashs-projects-c96b2f8a.vercel.app/api/loginuser', {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
